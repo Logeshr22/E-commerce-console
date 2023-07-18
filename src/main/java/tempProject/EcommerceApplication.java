@@ -648,7 +648,8 @@ class Products{
 						System.out.println(Specifications.cricket[1][chooseProduct-1]);
 						System.out.println("================================================");
 						System.out.println();
-						System.out.println("Price : "+SportsCategory.Cricket[1][chooseProduct-1]+"\n\nThanks for buying "+SportsCategory.Cricket[0][chooseProduCricket						System.out.println();
+						System.out.println("Price : "+SportsCategory.Cricket[1][chooseProduct-1]+"\n\nThanks for buying "+SportsCategory.Cricket[0][chooseProduct-1]);
+						System.out.println();
 						System.out.println("Return to Main Menu ? Yes or No");
 						String toMainMenu = sc.next();
 						if(toMainMenu.equals("y") || toMainMenu.equals("yes") || toMainMenu.equals("Y") || toMainMenu.equals("YES")) {
