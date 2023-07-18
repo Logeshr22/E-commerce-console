@@ -216,7 +216,7 @@ class Products{
 		FurnitureCategory fn = new FurnitureCategory();
 		display ds = new display();
 		if(display.Category==2) {
-			System.out.println("Select the Sub-Category :\n\n 1.Laptops \n 2.Mobiles \n 3.Tablets \n 4.TV \n 5.Speakers \n");
+			System.out.println("Select the Sub-Category :\n\n 1.Tables \n 2.Chairs \n 3.Beds \n 4.Desks \n 5.CupBoards \n");
 			System.out.println();
 			int chooseSub = sc.nextInt();
 			if(chooseSub==1)
