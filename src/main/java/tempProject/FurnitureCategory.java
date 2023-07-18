@@ -5,13 +5,13 @@ import java.util.*;
 public class FurnitureCategory {
 	static String Tables[][] = { { "Bluewood", "Nilkamal", "Hometown", "SpaceWood", "Godrej  " },
 			{ "$200", "$170", "$180", "$150", "$300" } };
-	static String Chairs[][] = { { "1.Adiko  ", "2.Amardeep", "3.De Bono", "4.Durian", "Element  " },
+	static String Chairs[][] = { { "Adiko  ", "Amardeep", "De Bono", "Durian", "Element  " },
 			{ "$500", "$130", "$100", "$120", "$100" } };
 	static String beds[][] = { { "DuroFlex", "LivPure ", "Kurl-On ", "Sleepwell", "WakeFit " },
 			{ "$500", "$300", "$700", "$200", "$100" } };
 	static String desks[][] = { { "TOPSKY  ", "Coavas  ", "IKEA    ", "FlexiSpot", "Red-Barrel" },
 			{ "$500", "$100", "$700", "$200", "$100" } };
-	static String cupBoards[][] = { { "WakeFit  ", "NilKamal", "Hudson Mark", "SpaceWood", "IKEA    " },
+	static String cupBoards[][] = { {  "TOPSKY  ", "Coavas  ", "IKEA    ", "FlexiSpot", "Red-Barrel"},
 			{ "$500", "$30", "$70", "$20", "$10" } };
 	
 	public void Tables() {

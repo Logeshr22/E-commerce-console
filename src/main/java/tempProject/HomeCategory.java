@@ -5,15 +5,15 @@ import java.util.*;
 
 public class HomeCategory {
 	static String Appliances[][] = { { "Washing Machine", "Refrigerator", "Cloth Dryer", "Freezer   ", "AC        " },
-			{ "$200", "$170", "$180", "$100", "$300" } };
+			{ "$500", "$600", "$400", "$300", "$450" } };
 	static String Cooking[][] = { { "Stove     ", "Oven     ", "Grinder    ", "FruitMixer", "Plate     " },
-			{ "$50", "$20", "$30", "$20", "$10" } };
+			{ "$100", "$200", "$250", "$200", "$10" } };
 	static String Cleaning[][] = { { "VaccumCleaner", "DishWasher", "Detergent", "Squeegee", "Mop     " },
 			{ "$50", "$30", "$70", "$20", "$10" } };
 	static String Gadgets[][] = { { "Google Nest", "Amazon Echo", "Doorbell", "Television", "Computer" },
-			{ "$50", "$20", "$70", "$20", "$10" } };
+			{ "$500", "$400", "$700", "$20", "$1000" } };
 	static String Security[][] = { { "CCTV        ", "Alaram    ", "Doorbell", "Door-Lock", "Warning Sticker" },
-			{ "$3", "$3", "$7", "$8", "$6" } };
+			{ "$100", "$30", "$70", "$8", "$6" } };
 	
 	public void Appliances() {
 		

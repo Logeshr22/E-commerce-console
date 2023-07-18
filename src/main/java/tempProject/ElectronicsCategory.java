@@ -5,7 +5,7 @@ import java.util.*;
 public class ElectronicsCategory {
 	static String Laptops[][] = { { "Apple", "Asus", "MSI", "Dell", "Razer" },
 			{ "$2000", "$1700", "$1800", "$1500", "$3000" } };
-	static String Mobiles[][] = { { "iPhone  ", "Samsung  ", "Sony  ", "Asus  ", "Motorola" },
+	static String Mobiles[][] = { { "iPhone  ", "Samsung  ", "Sony       ", "Asus      ", "Motorola" },
 			{ "$1500", "$1300", "$1700", "$1200", "$1000" } };
 	static String Tablets[][] = { { "Lenovo  ", "Samsung  ", "Microsoft", "iPad    ", "Acer    " },
 			{ "$1500", "$1300", "$1700", "$1200", "$1000" } };
