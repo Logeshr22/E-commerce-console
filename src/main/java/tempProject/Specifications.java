@@ -79,11 +79,11 @@ public class Specifications {
 
 	}};
 	static String[][] cupBoards = {{ "TOPSKY  ", "Coavas  ", "IKEA    ", "FlexiSpot", "Red-Barrel" },{
-		"Brand\t\t : TOPSKY\nDimension\t : 45x45x48cm\nColor\t : Red\n",
-		"Brand\t\t : Coavas\nDimension\t : 73x114x74cm\nColor\t : Amber\n",
-		"Brand\t\t : IKEA\nDimension\t : 45x45x48cm\nColor\t : Blue\n",
-		"Brand\t\t : FlexiSpot\nDimension\t : 45x45x48cm\nColor\t : Green\n",
-		"Brand\t\t : Red-Barrel\nDimension\t : 45x45x48cm\nColor\t : Orange\n"
+		"Brand\t\t : TOPSKY\nDimension\t : 45x45x48cm\nColor\t\t : Red\n",
+		"Brand\t\t : Coavas\nDimension\t : 73x114x74cm\nColor\t\t : Amber\n",
+		"Brand\t\t : IKEA\nDimension\t : 45x45x48cm\nColor\t\t : Blue\n",
+		"Brand\t\t : FlexiSpot\nDimension\t : 45x45x48cm\nColor\t\t : Green\n",
+		"Brand\t\t : Red-Barrel\nDimension\t : 45x45x48cm\nColor\t\t : Orange\n"
 	}};
 	
 	//Clothing
