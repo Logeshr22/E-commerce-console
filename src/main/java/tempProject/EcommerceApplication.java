@@ -400,7 +400,7 @@ class Products{
 				System.out.println();
 				System.out.println("Choose the product to buy (1-5):");
 				int chooseProduct = sc.nextInt();
-				System.out.println("Are you sure want to buy "+ClothingCategory.Shirts[chooseProduct-1]+"? yes or no ?");
+				System.out.println("Are you sure want to buy "+ClothingCategory.Shirts[0][chooseProduct-1]+"? yes or no ?");
 				String confirm = sc.next();
 				if(confirm.equals("y") || confirm.equals("yes") || confirm.equals("Y") || confirm.equals("YES")){
 					if(chooseProduct!=0 && (chooseProduct==1 || chooseProduct==2 || chooseProduct==3 || chooseProduct==4 || chooseProduct==5)) {
@@ -574,7 +574,7 @@ class Products{
 				System.out.println();
 				System.out.println("Choose the product to buy (1-5):");
 				int chooseProduct = sc.nextInt();
-				System.out.println("Are you sure want to buy "+SportsCategory.Football[chooseProduct-1]+"? yes or no ?");
+				System.out.println("Are you sure want to buy "+SportsCategory.Football[0][chooseProduct-1]+"? yes or no ?");
 				String confirm = sc.next();
 				if(confirm.equals("y") || confirm.equals("yes") || confirm.equals("Y") || confirm.equals("YES")){
 					if(chooseProduct!=0 && (chooseProduct==1 || chooseProduct==2 || chooseProduct==3 || chooseProduct==4 || chooseProduct==5)) {
@@ -748,7 +748,7 @@ class Products{
 				System.out.println();
 				System.out.println("Choose the product to buy (1-5):");
 				int chooseProduct = sc.nextInt();
-				System.out.println("Are you sure want to buy "+HomeCategory.Appliances[chooseProduct-1]+"? yes or no ?");
+				System.out.println("Are you sure want to buy "+HomeCategory.Appliances[0][chooseProduct-1]+"? yes or no ?");
 				String confirm = sc.next();
 				if(confirm.equals("y") || confirm.equals("yes") || confirm.equals("Y") || confirm.equals("YES")){
 					if(chooseProduct!=0 && (chooseProduct==1 || chooseProduct==2 || chooseProduct==3 || chooseProduct==4 || chooseProduct==5)) {
@@ -780,7 +780,7 @@ class Products{
 				System.out.println();
 				System.out.println("Choose the product to buy (1-5):");
 				int chooseProduct = sc.nextInt();
-				System.out.println("Are you sure want to buy "+HomeCategory.Cooking[chooseProduct-1]+"? yes or no ?");
+				System.out.println("Are you sure want to buy "+HomeCategory.Cooking[0][chooseProduct-1]+"? yes or no ?");
 				String confirm = sc.next();
 				if(confirm.equals("y") || confirm.equals("yes") || confirm.equals("Y") || confirm.equals("YES")){
 					if(chooseProduct!=0 && (chooseProduct==1 || chooseProduct==2 || chooseProduct==3 || chooseProduct==4 || chooseProduct==5)) {
