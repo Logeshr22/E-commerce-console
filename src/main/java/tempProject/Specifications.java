@@ -48,42 +48,42 @@ public class Specifications {
 	
 	
 	static String[][] tables = {{"Bluewood", "Nilkamal", "Hometown", "SpaceWood", "Godrej  "},{
-		"Brand\t : Bluewood\nDimension\t : 45x45x48cm\nColor\t : Red\n",
-		"Brand\t : Nilkamal\nDimension\t : 73x114x74cm\nColor\t : Amber\n",
-		"Brand\t : Hometown\nDimension\t : 45x45x48cm\nColor\t : Blue\n",
-		"Brand\t : SpaceWood\nDimension\t : 45x45x48cm\nColor\t : Green\n",
-		"Brand\t : Godrej\nDimension\t : 45x45x48cm\nColor\t : Orange\n"
+		"Brand\t\t : Bluewood\nDimension\t : 45x45x48cm\nColor\t : Red\n",
+		"Brand\t\t : Nilkamal\nDimension\t : 73x114x74cm\nColor\t : Amber\n",
+		"Brand\t\t : Hometown\nDimension\t : 45x45x48cm\nColor\t : Blue\n",
+		"Brand\t\t : SpaceWood\nDimension\t : 45x45x48cm\nColor\t : Green\n",
+		"Brand\t\t : Godrej\nDimension\t : 45x45x48cm\nColor\t : Orange\n"
 
 	}};
 	static String[][] chairs = {{ "Adiko  ", "Amardeep", "De Bono", "Durian", "Element  "},{
-		"Brand\t : Adiko\nDimension\t : 45x45x48cm\nColor\t : Red\n",
-		"Brand\t : Amardeep\nDimension\t : 73x114x74cm\nColor\t : Amber\n",
-		"Brand\t : De Bono\nDimension\t : 45x45x48cm\nColor\t : Blue\n",
-		"Brand\t : Durian\nDimension\t : 45x45x48cm\nColor\t : Green\n",
-		"Brand\t : Element\nDimension\t : 45x45x48cm\nColor\t : Orange\n"
+		"Brand\t\t : Adiko\nDimension\t : 45x45x48cm\nColor\t : Red\n",
+		"Brand\t\t : Amardeep\nDimension\t : 73x114x74cm\nColor\t : Amber\n",
+		"Brand\t\t : De Bono\nDimension\t : 45x45x48cm\nColor\t : Blue\n",
+		"Brand\t\t : Durian\nDimension\t : 45x45x48cm\nColor\t : Green\n",
+		"Brand\t\t : Element\nDimension\t : 45x45x48cm\nColor\t : Orange\n"
 	}};
 	static String[][] beds = {{ "DuroFlex", "LivPure ", "Kurl-On ", "Sleepwell", "WakeFit " },{
-		"Brand\t : Bluewood\nDimension\t : 45x45x48cm\nColor\t : Red\n",
-		"Brand\t : Nilkamal\nDimension\t : 73x114x74cm\nColor\t : Amber\n",
-		"Brand\t : Hometown\nDimension\t : 45x45x48cm\nColor\t : Blue\n",
-		"Brand\t : SpaceWood\nDimension\t : 45x45x48cm\nColor\t : Green\n",
-		"Brand\t : Godrej\nDimension\t : 45x45x48cm\nColor\t : Orange\n"
+		"Brand\t\t : Bluewood\nDimension\t : 45x45x48cm\nColor\t : Red\n",
+		"Brand\t\t : Nilkamal\nDimension\t : 73x114x74cm\nColor\t : Amber\n",
+		"Brand\t\t : Hometown\nDimension\t : 45x45x48cm\nColor\t : Blue\n",
+		"Brand\t\t : SpaceWood\nDimension\t : 45x45x48cm\nColor\t : Green\n",
+		"Brand\t\t : Godrej\nDimension\t : 45x45x48cm\nColor\t : Orange\n"
 
 	}};
 	static String[][] desks = {{ "TOPSKY  ", "Coavas  ", "IKEA    ", "FlexiSpot", "Red-Barrel"},{
-		"Brand\t : TOPSKY\nDimension\t : 45x45x48cm\nColor\t : Red\n",
-		"Brand\t : Coavas\nDimension\t : 73x114x74cm\nColor\t : Amber\n",
-		"Brand\t : IKEA\nDimension\t : 45x45x48cm\nColor\t : Blue\n",
-		"Brand\t : FlexiSpot\nDimension\t : 45x45x48cm\nColor\t : Green\n",
-		"Brand\t : Red-Barrel\nDimension\t : 45x45x48cm\nColor\t : Orange\n"
+		"Brand\t\t : TOPSKY\nDimension\t : 45x45x48cm\nColor\t : Red\n",
+		"Brand\t\t : Coavas\nDimension\t : 73x114x74cm\nColor\t : Amber\n",
+		"Brand\t\t : IKEA\nDimension\t : 45x45x48cm\nColor\t : Blue\n",
+		"Brand\t\t : FlexiSpot\nDimension\t : 45x45x48cm\nColor\t : Green\n",
+		"Brand\t\t : Red-Barrel\nDimension\t : 45x45x48cm\nColor\t : Orange\n"
 
 	}};
 	static String[][] cupBoards = {{ "TOPSKY  ", "Coavas  ", "IKEA    ", "FlexiSpot", "Red-Barrel" },{
-		"Brand\t : TOPSKY\nDimension\t : 45x45x48cm\nColor\t : Red\n",
-		"Brand\t : Coavas\nDimension\t : 73x114x74cm\nColor\t : Amber\n",
-		"Brand\t : IKEA\nDimension\t : 45x45x48cm\nColor\t : Blue\n",
-		"Brand\t : FlexiSpot\nDimension\t : 45x45x48cm\nColor\t : Green\n",
-		"Brand\t : Red-Barrel\nDimension\t : 45x45x48cm\nColor\t : Orange\n"
+		"Brand\t\t : TOPSKY\nDimension\t : 45x45x48cm\nColor\t : Red\n",
+		"Brand\t\t : Coavas\nDimension\t : 73x114x74cm\nColor\t : Amber\n",
+		"Brand\t\t : IKEA\nDimension\t : 45x45x48cm\nColor\t : Blue\n",
+		"Brand\t\t : FlexiSpot\nDimension\t : 45x45x48cm\nColor\t : Green\n",
+		"Brand\t\t : Red-Barrel\nDimension\t : 45x45x48cm\nColor\t : Orange\n"
 	}};
 	
 	//Clothing
