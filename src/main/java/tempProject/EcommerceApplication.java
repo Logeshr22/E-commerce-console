@@ -42,7 +42,6 @@ class Products{
 	static void Electronics() {
 		Scanner sc = new Scanner(System.in);
 		ElectronicsCategory el = new ElectronicsCategory();
-		Laptops specs = new Laptops();
 		display ds = new display();
 		if(display.Category==1) {
 			System.out.println("Select the Sub-Category :\n\n 1.Laptops \n 2.Mobiles \n 3.Tablets \n 4.TV \n 5.Speakers \n");
@@ -58,7 +57,12 @@ class Products{
 				String confirm = sc.next();
 				if(confirm.equals("y") || confirm.equals("yes") || confirm.equals("Y") || confirm.equals("YES")){
 					if(chooseProduct!=0 && (chooseProduct==1)) {
-						specs.apple();
+						System.out.println("============================");
+						System.out.println("DESCRIPTION");
+						System.out.println("============================");
+						System.out.println(Specifications.laptops[1][0]);
+						System.out.println("============================");
+						System.out.println();
 						System.out.println("Thanks for buying "+ElectronicsCategory.Laptops[0][chooseProduct-1]+" Laptop which costs "+ElectronicsCategory.Laptops[1][chooseProduct-1]);
 						System.out.println();
 						System.out.println("Return to Main Menu ? Yes or No");
@@ -71,7 +75,12 @@ class Products{
 						}
 					}
 					if(chooseProduct!=0 && (chooseProduct==2)) {
-						specs.asus();
+						System.out.println("============================");
+						System.out.println("DESCRIPTION");
+						System.out.println("============================");
+						System.out.println(Specifications.laptops[1][1]);
+						System.out.println("============================");
+						System.out.println();
 						System.out.println("Thanks for buying "+ElectronicsCategory.Laptops[0][chooseProduct-1]+" Laptop which costs "+ElectronicsCategory.Laptops[1][chooseProduct-1]);
 						System.out.println();
 						System.out.println("Return to Main Menu ? Yes or No");
@@ -84,7 +93,12 @@ class Products{
 						}
 					}
 					if(chooseProduct!=0 && (chooseProduct==3)) {
-						specs.msi();
+						System.out.println("============================");
+						System.out.println("DESCRIPTION");
+						System.out.println("============================");
+						System.out.println(Specifications.laptops[1][2]);
+						System.out.println("============================");
+						System.out.println();
 						System.out.println("Thanks for buying "+ElectronicsCategory.Laptops[0][chooseProduct-1]+" Laptop which costs "+ElectronicsCategory.Laptops[1][chooseProduct-1]);
 						System.out.println();
 						System.out.println("Return to Main Menu ? Yes or No");
@@ -97,7 +111,12 @@ class Products{
 						}
 					}
 					if(chooseProduct!=0 && (chooseProduct==4)) {
-						specs.dell();
+						System.out.println("============================");
+						System.out.println("DESCRIPTION");
+						System.out.println("============================");
+						System.out.println(Specifications.laptops[1][3]);
+						System.out.println("============================");
+						System.out.println();
 						System.out.println("Thanks for buying "+ElectronicsCategory.Laptops[0][chooseProduct-1]+" Laptop which costs "+ElectronicsCategory.Laptops[1][chooseProduct-1]);
 						System.out.println();
 						System.out.println("Return to Main Menu ? Yes or No");
@@ -110,7 +129,12 @@ class Products{
 						}
 					}
 					if(chooseProduct!=0 && (chooseProduct==5)) {
-						specs.razor();
+						System.out.println("============================");
+						System.out.println("DESCRIPTION");
+						System.out.println("============================");
+						System.out.println(Specifications.laptops[1][4]);
+						System.out.println("============================");
+						System.out.println();
 						System.out.println("Thanks for buying "+ElectronicsCategory.Laptops[0][chooseProduct-1]+" Laptop which costs "+ElectronicsCategory.Laptops[1][chooseProduct-1]);
 						System.out.println();
 						System.out.println("Return to Main Menu ? Yes or No");
@@ -122,6 +146,7 @@ class Products{
 							System.out.println("Thanks for Shopping with us!");
 						}
 					}
+				
 				}
 				else if(confirm.equals("n") || confirm.equals("no") || confirm.equals("N") || confirm.equals("NO")){
 						System.out.println("No problem. Thank you !");
