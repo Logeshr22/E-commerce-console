@@ -1,5 +1,5 @@
 
-package tempProject;
+package com.digit.Project.ecommerce;
 
 import java.util.*;
 

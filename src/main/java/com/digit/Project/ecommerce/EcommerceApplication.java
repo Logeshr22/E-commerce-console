@@ -1,4 +1,4 @@
-package tempProject;
+package com.digit.Project.ecommerce;
 import java.util.*;
 public class EcommerceApplication{
 	public static void main(String[] args){

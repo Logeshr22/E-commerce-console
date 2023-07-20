@@ -1,4 +1,4 @@
-package tempProject;
+package com.digit.Project.ecommerce;
 
 public class Specifications {
 	//Electronics

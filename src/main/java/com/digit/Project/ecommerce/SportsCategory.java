@@ -1,69 +1,70 @@
-package tempProject;
+
+package com.digit.Project.ecommerce;
 
 import java.util.*;
 
-public class ClothingCategory {
-	static String Shirts[][] = { { "Allen Solly", "Levis   ", "Arrow   ", "Wrangler", "Jack&Jones" },
+public class SportsCategory {
+	static String Football[][] = { { "Cleats  ", "Wipers  ", "Girdles  ", "Thigh Pads", "Knee Pads" },
 			{ "$20", "$17", "$18", "$10", "$30" } };
-	static String Trousers[][] = { { "Park Avenue", "Pepe Jeans", "Arrow   ", "Louis Phillipe", "Levis   " },
+	static String Sportswears[][] = { { "Tshirt   ", "Shoe    ", "Tracks  ", "HeadBand", "Glove   " },
 			{ "$50", "$20", "$30", "$20", "$10" } };
-	static String Tshirts[][] = { { "Levis    ", "Lee     ", "Crocodile", "UCB      ", "Van Heusen" },
+	static String Cricket[][] = { { "Bat    ", "Ball   ", "Gloves", "KneePad", "Helmet" },
 			{ "$50", "$30", "$70", "$20", "$10" } };
-	static String Shoes[][] = { { "Nike    ", "Adidas     ", "Puma    ", "Asics    ", "Skechers" },
+	static String Bicycles[][] = { { "Giant", "Trek", "GT", "Montra", "Btwin" },
 			{ "$50", "$20", "$70", "$20", "$10" } };
-	static String InnerWears[][] = { { "Jockey", "Clovia", "Amante", "Levis", "Hanes" },
+	static String Rackets[][] = { { "Yonex", "Victor", "Ashaway", "Wilson", "FZForza" },
 			{ "$3", "$3", "$7", "$8", "$6" } };
-	public void Shirts() {
-
+	public void Football() {
+		
 		System.out.println("==============================");
-		System.out.println("Shirts\t\t\tPrice");
+		System.out.println("Football\t\tPrice");
 		System.out.println("==============================");
 		for (int j = 0; j < 5; j++) {
-			System.out.println(Shirts[0][j] + "\t\t" + Shirts[1][j]);
+			System.out.println(Football[0][j] + "\t\t" + Football[1][j]);
 		}
 		System.out.println("==============================");
 
 	}
-	public void Trousers() {
+	public void Sportswears() {
 		
 		System.out.println("==============================");
-		System.out.println("Trousers\t\tPrice");
+		System.out.println("Sportswears\t\tPrice");
 		System.out.println("==============================");
 		for (int j = 0; j < 5; j++) {
-			System.out.println(Trousers[0][j] + "\t\t" + Trousers[1][j]);
+			System.out.println(Sportswears[0][j] + "\t\t" + Sportswears[1][j]);
 		}
 		System.out.println("==============================");
 
 	}
-	public void Tshirts() {
+	public void Cricket() {
 		
 		System.out.println("==============================");
-		System.out.println("Tshirts\t\t\tPrice");
+		System.out.println("Cricket\t\tPrice");
 		System.out.println("==============================");
 		for (int j = 0; j < 5; j++) {
-			System.out.println(Tshirts[0][j] + "\t\t" + Tshirts[1][j]);
+			System.out.println(Cricket[0][j] + "\t\t" + Cricket[1][j]);
 		}
 		System.out.println("==============================");
 
 	}
-	public void Shoes() {
+	public void Bicycles() {
 		
 		System.out.println("==============================");
-		System.out.println("Shoes\t\t\tPrice");
+		System.out.println("Bicycles\tPrice");
 		System.out.println("==============================");
 		for (int j = 0; j < 5; j++) {
-			System.out.println(Shoes[0][j] + "\t\t" + Shoes[1][j]);
+			System.out.println(Bicycles[0][j] + "\t\t" + Bicycles[1][j]);
 		}
 		System.out.println("==============================");
 
 	}
-	public void InnerWears() {
+	public void Rackets() {
 		
 		System.out.println("==============================");
-		System.out.println("InnerWear\tPrice");
+		System.out.println("Rackets\t\tPrice");
 		System.out.println("==============================");
 		for (int j = 0; j < 5; j++) {
-			System.out.println(InnerWears[0][j] + "\t\t" + InnerWears[1][j]);
+			System.out.println(Rackets[0][j] + "\t\t" + Rackets[1][j]);
 		}
 		System.out.println("==============================");
 
