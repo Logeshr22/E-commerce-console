@@ -56,11 +56,11 @@ class Products{
 				String confirm = sc.next();
 				if(confirm.equals("y") || confirm.equals("yes") || confirm.equals("Y") || confirm.equals("YES")){
 					if(chooseProduct!=0 && (chooseProduct==1 || chooseProduct==2 || chooseProduct==3 || chooseProduct==4 || chooseProduct==5)) {
-						System.out.println("============================");
+						System.out.println("===============================");
 						System.out.println("DESCRIPTION");
-						System.out.println("============================");
+						System.out.println("===============================");
 						System.out.println(Specifications.laptops[1][chooseProduct-1]);
-						System.out.println("============================");
+						System.out.println("===============================");
 						System.out.println();
 						System.out.println("Price : "+ElectronicsCategory.Laptops[1][chooseProduct-1]+"\n\nThanks for buying "+ElectronicsCategory.Laptops[0][chooseProduct-1]);
 						System.out.println();
@@ -261,11 +261,11 @@ class Products{
 				String confirm = sc.next();
 				if(confirm.equals("y") || confirm.equals("yes") || confirm.equals("Y") || confirm.equals("YES")){
 					if(chooseProduct!=0 && (chooseProduct==1 || chooseProduct==2 || chooseProduct==3 || chooseProduct==4 || chooseProduct==5)) {
-						System.out.println("============================");
+						System.out.println("===============================");
 						System.out.println("DESCRIPTION");
-						System.out.println("============================");
+						System.out.println("===============================");
 						System.out.println(Specifications.chairs[1][chooseProduct-1]);
-						System.out.println("============================");
+						System.out.println("===============================");
 						System.out.println();
 						System.out.println("Price : "+FurnitureCategory.Chairs[1][chooseProduct-1]+"\n\nThanks for buying "+FurnitureCategory.Chairs[0][chooseProduct-1]);
 						System.out.println();
@@ -293,11 +293,11 @@ class Products{
 				String confirm = sc.next();
 				if(confirm.equals("y") || confirm.equals("yes") || confirm.equals("Y") || confirm.equals("YES")){
 					if(chooseProduct!=0 && (chooseProduct==1 || chooseProduct==2 || chooseProduct==3 || chooseProduct==4 || chooseProduct==5)) {
-						System.out.println("============================");
+						System.out.println("===============================");
 						System.out.println("DESCRIPTION");
-						System.out.println("============================");
+						System.out.println("===============================");
 						System.out.println(Specifications.beds[1][chooseProduct-1]);
-						System.out.println("============================");
+						System.out.println("===============================");
 						System.out.println();
 						System.out.println("Price : "+FurnitureCategory.beds[1][chooseProduct-1]+"\n\nThanks for buying "+FurnitureCategory.beds[0][chooseProduct-1]);
 						System.out.println();

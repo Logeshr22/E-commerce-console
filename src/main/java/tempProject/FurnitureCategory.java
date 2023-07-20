@@ -5,7 +5,7 @@ import java.util.*;
 public class FurnitureCategory {
 	static String Tables[][] = { { "Bluewood", "Nilkamal", "Hometown", "SpaceWood", "Godrej  " },
 			{ "$200", "$170", "$180", "$150", "$300" } };
-	static String Chairs[][] = { { "Adiko  ", "Amardeep", "De Bono", "Durian", "Element  " },
+	static String Chairs[][] = { { "Adiko\t  ", "Amardeep", "De Bono\t", "Durian\t", "Element  " },
 			{ "$500", "$130", "$100", "$120", "$100" } };
 	static String beds[][] = { { "DuroFlex", "LivPure ", "Kurl-On ", "Sleepwell", "WakeFit " },
 			{ "$500", "$300", "$700", "$200", "$100" } };
